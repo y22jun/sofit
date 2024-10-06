@@ -1,0 +1,52 @@
+.my-groups {
+  margin-bottom: 40px;
+  max-width: 100%; // Ensure it doesn't overflow its container
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  .my-groups-container {
+    display: flex;
+    overflow-x: auto; // Enable horizontal scrolling
+    gap: 10px;
+    padding-bottom: 10px; // Add some padding for scroll bar visibility
+    scrollbar-width: thin; // Firefox
+    scrollbar-color: #888 #f4f4f4; // Firefox
+  }
+
+  .my-group-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    flex: 0 0 auto; // Prevent items from shrinking
+    width: 300px; // Fixed width for each group item, adjust as needed
+
+    &:hover {
+      background-color: #e0e0e0;
+    }
+
+    h3 {
+      margin: 0 0 5px 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  // Webkit scroll bar styles for Chrome, Safari, etc.
+  .my-groups-container::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .my-groups-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+
+  .my-groups-container::-webkit-scrollbar-track {
+    background: #f4f4f4;
+  }
+}

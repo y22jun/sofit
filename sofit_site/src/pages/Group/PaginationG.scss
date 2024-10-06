@@ -1,0 +1,33 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+    }
+  
+    li {
+      margin: 0 5px;
+    }
+  
+    button {
+      padding: 8px 12px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+    }
+  
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+  
+    .active button {
+      background-color: #0056b3;
+    }
+  }
+  

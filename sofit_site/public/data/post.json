@@ -1,0 +1,232 @@
+[
+  {
+      "boardId": 1,
+      "title": "포스트 1",
+      "content": "이것은 포스트 1의 내용입니다.",
+      "hashtags": ["react", "게시판"],
+      "userInfoDto": {
+          "email": "mymayaan@gmail.com",
+          "nickname": "정준경"
+      }
+  },
+  {
+      "boardId": 2,
+      "title": "포스트 2",
+      "content": "이것은 포스트 2의 내용입니다.",
+      "hashtags": ["vue", "컴포넌트"],
+      "userInfoDto": {
+          "email": "user2@example.com",
+          "nickname": "사용자2"
+      }
+  },
+  {
+      "boardId": 3,
+      "title": "포스트 3",
+      "content": "이것은 포스트 3의 내용입니다.",
+      "hashtags": ["angular", "웹개발"],
+      "userInfoDto": {
+          "email": "user3@example.com",
+          "nickname": "사용자3"
+      }
+  },
+  {
+      "boardId": 4,
+      "title": "포스트 4",
+      "content": "이것은 포스트 4의 내용입니다.",
+      "hashtags": ["react", "프론트엔드"],
+      "userInfoDto": {
+          "email": "user4@example.com",
+          "nickname": "사용자4"
+      }
+  },
+  {
+      "boardId": 5,
+      "title": "포스트 5",
+      "content": "이것은 포스트 5의 내용입니다.",
+      "hashtags": ["nodejs", "백엔드"],
+      "userInfoDto": {
+          "email": "user5@example.com",
+          "nickname": "사용자5"
+      }
+  },
+  {
+      "boardId": 6,
+      "title": "포스트 6",
+      "content": "이것은 포스트 6의 내용입니다.",
+      "hashtags": ["javascript", "프로그래밍"],
+      "userInfoDto": {
+          "email": "user6@example.com",
+          "nickname": "사용자6"
+      }
+  },
+  {
+      "boardId": 7,
+      "title": "포스트 7",
+      "content": "이것은 포스트 7의 내용입니다.",
+      "hashtags": ["typescript", "웹개발"],
+      "userInfoDto": {
+          "email": "user7@example.com",
+          "nickname": "사용자7"
+      }
+  },
+  {
+      "boardId": 8,
+      "title": "포스트 8",
+      "content": "이것은 포스트 8의 내용입니다.",
+      "hashtags": ["redux", "상태관리"],
+      "userInfoDto": {
+          "email": "user8@example.com",
+          "nickname": "사용자8"
+      }
+  },
+  {
+      "boardId": 9,
+      "title": "포스트 9",
+      "content": "이것은 포스트 9의 내용입니다.",
+      "hashtags": ["mobx", "상태관리"],
+      "userInfoDto": {
+          "email": "user9@example.com",
+          "nickname": "사용자9"
+      }
+  },
+  {
+      "boardId": 10,
+      "title": "포스트 10",
+      "content": "이것은 포스트 10의 내용입니다.",
+      "hashtags": ["html", "웹기초"],
+      "userInfoDto": {
+          "email": "user10@example.com",
+          "nickname": "사용자10"
+      }
+  },
+  {
+      "boardId": 11,
+      "title": "포스트 11",
+      "content": "이것은 포스트 11의 내용입니다.",
+      "hashtags": ["css", "디자인"],
+      "userInfoDto": {
+          "email": "user11@example.com",
+          "nickname": "사용자11"
+      }
+  },
+  {
+      "boardId": 12,
+      "title": "포스트 12",
+      "content": "이것은 포스트 12의 내용입니다.",
+      "hashtags": ["scss", "스타일"],
+      "userInfoDto": {
+          "email": "user12@example.com",
+          "nickname": "사용자12"
+      }
+  },
+  {
+      "boardId": 13,
+      "title": "포스트 13",
+      "content": "이것은 포스트 13의 내용입니다.",
+      "hashtags": ["webpack", "번들러"],
+      "userInfoDto": {
+          "email": "user13@example.com",
+          "nickname": "사용자13"
+      }
+  },
+  {
+      "boardId": 14,
+      "title": "포스트 14",
+      "content": "이것은 포스트 14의 내용입니다.",
+      "hashtags": ["babel", "트랜스파일러"],
+      "userInfoDto": {
+          "email": "user14@example.com",
+          "nickname": "사용자14"
+      }
+  },
+  {
+      "boardId": 15,
+      "title": "포스트 15",
+      "content": "이것은 포스트 15의 내용입니다.",
+      "hashtags": ["eslint", "코드품질"],
+      "userInfoDto": {
+          "email": "user15@example.com",
+          "nickname": "사용자15"
+      }
+  },
+  {
+      "boardId": 16,
+      "title": "포스트 16",
+      "content": "이것은 포스트 16의 내용입니다.",
+      "hashtags": ["prettier", "코드포매팅"],
+      "userInfoDto": {
+          "email": "user16@example.com",
+          "nickname": "사용자16"
+      }
+  },
+  {
+      "boardId": 17,
+      "title": "포스트 17",
+      "content": "이것은 포스트 17의 내용입니다.",
+      "hashtags": ["jest", "테스트"],
+      "userInfoDto": {
+          "email": "user17@example.com",
+          "nickname": "사용자17"
+      }
+  },
+  {
+      "boardId": 18,
+      "title": "포스트 18",
+      "content": "이것은 포스트 18의 내용입니다.",
+      "hashtags": ["react", "컴포넌트"],
+      "userInfoDto": {
+          "email": "user18@example.com",
+          "nickname": "사용자18"
+      }
+  },
+  {
+      "boardId": 19,
+      "title": "포스트 19",
+      "content": "이것은 포스트 19의 내용입니다.",
+      "hashtags": ["nextjs", "SSR"],
+      "userInfoDto": {
+          "email": "user19@example.com",
+          "nickname": "사용자19"
+      }
+  },
+  {
+      "boardId": 20,
+      "title": "포스트 20",
+      "content": "이것은 포스트 20의 내용입니다.",
+      "hashtags": ["nuxtjs", "SSR"],
+      "userInfoDto": {
+          "email": "user20@example.com",
+          "nickname": "사용자20"
+      }
+  },
+  {
+      "boardId": 21,
+      "title": "포스트 21",
+      "content": "이것은 포스트 21의 내용입니다.",
+      "hashtags": ["svelte", "프론트엔드"],
+      "userInfoDto": {
+          "email": "user21@example.com",
+          "nickname": "사용자21"
+      }
+  },
+  {
+      "boardId": 22,
+      "title": "포스트 22",
+      "content": "이것은 포스트 22의 내용입니다.",
+      "hashtags": ["gatsby", "정적사이트"],
+      "userInfoDto": {
+          "email": "user22@example.com",
+          "nickname": "사용자22"
+      }
+  },
+  {
+      "boardId": 23,
+      "title": "포스트 23",
+      "content": "이것은 포스트 23의 내용입니다.",
+      "hashtags": ["react", "네이티브"],
+      "userInfoDto": {
+          "email": "user23@example.com",
+          "nickname": "사용자23"
+      }
+  }
+]

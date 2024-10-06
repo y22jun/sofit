@@ -1,0 +1,101 @@
+.header {
+    display: flex;
+
+    // width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: none;
+    
+    font-size: 2rem;
+    font-weight: bold;
+    
+  }
+  
+  .left-section {
+    flex: 0.5;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .center-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative; // 드롭다운을 위한 위치 지정
+  }
+  
+  .right-section {
+    flex: 0.5;
+    display: flex;
+    margin-right: 20px;
+    justify-content: flex-end;
+  }
+
+  .right-section .link-tab {
+    margin: 0 30px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .link-tab {
+    margin: 0 50px;
+    text-decoration: none;
+    color: black;
+
+    font-size: 2rem;
+    font-weight: bold;
+
+    background: none;
+    border: none;
+  }
+  
+  .link-tab:hover {
+    color : gray
+  }
+
+  .link {
+    margin: 0 30px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .sublink {
+    margin: 0 10px;
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2rem;
+  }
+  
+  .header .center-section {
+    position: relative; // 부모 요소에 상대 위치 설정
+}
+
+.header .center-section .dropdown-content {
+    display: none; // 기본적으로 숨김, JavaScript 또는 조건부 렌더링으로 관리
+    position: absolute; // 절대 위치 설정
+    top: 100%; // Univ 탭 바로 아래에 위치하도록 설정
+    left: 30.5%; // 부모 요소의 왼쪽에 맞춤
+    background-color: none; // 배경색 설정
+    min-width: 160px; // 최소 너비 설정
+    z-index: 1; // 다른 요소 위에 보이도록 z-index 설정
+}
+
+// CSS를 사용하는 경우, 마우스가 드롭다운 메뉴 위에 있을 때만 보이도록 설정
+.header .center-section:hover .dropdown-content {
+    display: block; // 마우스 오버 시 보임
+}
+
+
+.header .dropdown-item-container {
+    padding: 12px 16px; // 패딩 설정
+    text-decoration: none; // 텍스트 데코레이션 제거
+    display: block; // 블록 요소로 설정하여 줄 바꿈
+}
+
+.header .dropdown-item-container .sublink {
+    text-decoration: none; // 링크의 밑줄 제거
+    color: black; // 링크 색상 설정
+}
+
+  

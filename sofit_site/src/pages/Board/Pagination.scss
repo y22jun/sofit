@@ -1,0 +1,41 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .pagination ul li {
+    margin: 0 5px;
+  }
+  
+  .pagination ul li button {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    color: #495057;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination ul li button:hover {
+    background-color: #e9ecef;
+  }
+  
+  .pagination ul li.active button {
+    background-color: #007bff;
+    color: #ffffff;
+    border-color: #007bff;
+  }
+  
+  .pagination ul li button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  

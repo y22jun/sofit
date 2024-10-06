@@ -1,0 +1,100 @@
+.group-create {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+      font-size: 24px;
+    }
+  
+    .form-group {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+  
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #555;
+        font-size: 18px;
+      }
+  
+      input[type="text"],
+      input[type="password"],
+      input[type="range"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        transition: border-color 0.3s ease;
+  
+        &:focus {
+          border-color: #007bff;
+        }
+      }
+  
+      input[type="range"] {
+        width: calc(100% - 60px);
+        margin-top: 5px;
+      }
+  
+      textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+        margin-bottom: 10px;
+        transition: border-color 0.3s ease;
+  
+        &:focus {
+          border-color: #007bff;
+        }
+      }
+    }
+  
+    .button-group {
+      display: flex;
+      justify-content: flex-end;
+      mar
+  
+      .btn {
+        padding: 12px 24px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        margin-left: 10px;
+  
+        &.create-btn {
+          background-color: #007bff;
+          color: white;
+  
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+  
+        &.cancel-btn {
+          background-color: #dc3545;
+          color: white;
+  
+          &:hover {
+            background-color: #c82333;
+          }
+        }
+      }
+    }
+  }
+  

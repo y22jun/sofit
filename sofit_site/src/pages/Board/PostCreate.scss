@@ -1,0 +1,72 @@
+// PostCreate.scss
+.post-create {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  
+    h2 {
+      margin-bottom: 20px;
+    }
+  
+    .form-group {
+      margin-bottom: 20px;
+  
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+  
+      input[type="text"],
+      input[type="file"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box; /* Add this line to ensure padding is included in the width */
+      }
+  
+      textarea {
+        resize: vertical;
+        padding: 10px; /* Ensure padding is consistent with input fields */
+      }
+  
+      input[type="file"] {
+        padding: 8px;
+      }
+    }
+  
+    .button-group {
+      display: flex;
+      justify-content: flex-end;
+  
+      .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        transition: opacity 0.3s ease;
+  
+        &.submit-btn {
+          background-color: #007bff;
+          color: white;
+          margin-right: 10px;
+        }
+  
+        &.cancel-btn {
+          background-color: #dc3545;
+          color: white;
+        }
+  
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+  

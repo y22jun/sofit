@@ -1,0 +1,90 @@
+.group-setting {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  
+    h1 {
+      margin-bottom: 20px;
+      color: #333;
+      font-size: 24px;
+    }
+  
+    .setting-item {
+      margin-bottom: 20px;
+  
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #555;
+        font-size: 18px;
+      }
+  
+      input[type="number"],
+      input[type="checkbox"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 5px;
+        transition: border-color 0.3s ease;
+  
+        &:focus {
+          border-color: #007bff;
+        }
+      }
+    }
+  
+    .button-group {
+      display: flex;
+      justify-content: flex-end;
+  
+      .edit-btn {
+        padding: 12px 24px;
+        font-size: 16px;
+        margin-right: 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+  
+        &:hover {
+          background-color: #dc3545;
+          color: white;
+        }
+      }
+      .delete-btn {
+        padding: 12px 24px;
+        font-size: 16px;
+        margin-right: 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+  
+        &:hover {
+          background-color: #dc3545;
+          color: white;
+        }
+      }
+      .cancel-btn {
+        padding: 12px 24px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+  
+        &:hover {
+          background-color: #dc3545;
+          color: white;
+        }
+      }
+    }
+  }
+  

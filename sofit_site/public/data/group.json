@@ -1,0 +1,213 @@
+[
+    {
+      "id": 1,
+      "name": "AI Enthusiasts",
+      "leader": "Alice Smith",
+      "currentMembers": 50,
+      "maxMembers": 100,
+      "isPublic": false,
+      "creationDate": "2023-01-15",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "name": "React Developers",
+      "leader": "Bob Johnson",
+      "currentMembers": 30,
+      "maxMembers": 50,
+      "isPublic": true,
+      "creationDate": "2022-11-22",
+      "password": ""
+    },
+    {
+      "id": 3,
+      "name": "Python Programmers",
+      "leader": "Charlie Brown",
+      "currentMembers": 25,
+      "maxMembers": 30,
+      "isPublic": false,
+      "creationDate": "2023-03-10",
+      "password": "python123"
+    },
+    {
+      "id": 4,
+      "name": "Data Science Gurus",
+      "leader": "Dana White",
+      "currentMembers": 40,
+      "maxMembers": 40,
+      "isPublic": true,
+      "creationDate": "2022-08-05",
+      "password": ""
+    },
+    {
+      "id": 5,
+      "name": "Cybersecurity Experts",
+      "leader": "Eve Black",
+      "currentMembers": 10,
+      "maxMembers": 20,
+      "isPublic": false,
+      "creationDate": "2023-04-18",
+      "password": "cyber456"
+    },
+    {
+      "id": 6,
+      "name": "Web Developers",
+      "leader": "Frank Green",
+      "currentMembers": 15,
+      "maxMembers": 25,
+      "isPublic": true,
+      "creationDate": "2022-12-01",
+      "password": ""
+    },
+    {
+      "id": 7,
+      "name": "Mobile App Creators",
+      "leader": "Grace Hopper",
+      "currentMembers": 35,
+      "maxMembers": 40,
+      "isPublic": true,
+      "creationDate": "2023-05-20",
+      "password": ""
+    },
+    {
+      "id": 8,
+      "name": "Cloud Computing Enthusiasts",
+      "leader": "Hank Morgan",
+      "currentMembers": 20,
+      "maxMembers": 30,
+      "isPublic": false,
+      "creationDate": "2023-02-14",
+      "password": "cloud789"
+    },
+    {
+      "id": 9,
+      "name": "Blockchain Innovators",
+      "leader": "Ivy Johnson",
+      "currentMembers": 10,
+      "maxMembers": 15,
+      "isPublic": true,
+      "creationDate": "2023-01-30",
+      "password": ""
+    },
+    {
+      "id": 10,
+      "name": "UI/UX Designers",
+      "leader": "Jackie Brown",
+      "currentMembers": 18,
+      "maxMembers": 25,
+      "isPublic": true,
+      "creationDate": "2022-10-10",
+      "password": ""
+    },
+    {
+      "id": 11,
+      "name": "Robotics Club",
+      "leader": "Kelly Blue",
+      "currentMembers": 12,
+      "maxMembers": 25,
+      "isPublic": true,
+      "creationDate": "2023-06-01",
+      "password": ""
+    },
+    {
+      "id": 12,
+      "name": "Quantum Computing",
+      "leader": "Liam Gray",
+      "currentMembers": 8,
+      "maxMembers": 20,
+      "isPublic": false,
+      "creationDate": "2023-07-10",
+      "password": "quantum321"
+    },
+    {
+      "id": 13,
+      "name": "Big Data Analysts",
+      "leader": "Mia White",
+      "currentMembers": 22,
+      "maxMembers": 30,
+      "isPublic": true,
+      "creationDate": "2022-09-25",
+      "password": ""
+    },
+    {
+      "id": 14,
+      "name": "Machine Learning Experts",
+      "leader": "Noah Brown",
+      "currentMembers": 45,
+      "maxMembers": 50,
+      "isPublic": true,
+      "creationDate": "2023-05-05",
+      "password": ""
+    },
+    {
+      "id": 15,
+      "name": "Startup Founders",
+      "leader": "Olivia Green",
+      "currentMembers": 20,
+      "maxMembers": 40,
+      "isPublic": false,
+      "creationDate": "2022-12-12",
+      "password": "startup789"
+    },
+    {
+      "id": 16,
+      "name": "IoT Innovators",
+      "leader": "Peter Black",
+      "currentMembers": 16,
+      "maxMembers": 30,
+      "isPublic": true,
+      "creationDate": "2023-03-03",
+      "password": ""
+    },
+    {
+      "id": 17,
+      "name": "Game Developers",
+      "leader": "Quinn White",
+      "currentMembers": 27,
+      "maxMembers": 35,
+      "isPublic": true,
+      "creationDate": "2022-10-15",
+      "password": ""
+    },
+    {
+      "id": 18,
+      "name": "Tech Entrepreneurs",
+      "leader": "Rachel Blue",
+      "currentMembers": 13,
+      "maxMembers": 20,
+      "isPublic": false,
+      "creationDate": "2023-01-07",
+      "password": "tech123"
+    },
+    {
+      "id": 19,
+      "name": "Network Engineers",
+      "leader": "Samuel Gray",
+      "currentMembers": 30,
+      "maxMembers": 50,
+      "isPublic": true,
+      "creationDate": "2022-07-19",
+      "password": ""
+    },
+    {
+      "id": 20,
+      "name": "Bioinformatics Group",
+      "leader": "Tina Green",
+      "currentMembers": 18,
+      "maxMembers": 25,
+      "isPublic": true,
+      "creationDate": "2023-04-22",
+      "password": ""
+    },
+    {
+      "id": 21,
+      "name": "VR/AR Enthusiasts",
+      "leader": "Uma Black",
+      "currentMembers": 15,
+      "maxMembers": 25,
+      "isPublic": false,
+      "creationDate": "2023-02-09",
+      "password": "vr456"
+    }
+  ]
+  

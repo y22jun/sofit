@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    position: fixed; // footer를 화면 하단에 고정
+    right: 1%;
+    bottom: 0;
+    max-height: 30px; // footer의 최대 높이를 50px로 설정
+    background-color: #ffffff; // 배경색 설정, 필요에 따라 변경 가능
+    align-items: center;
+    padding: 10px; // padding 추가
+  }
+ 

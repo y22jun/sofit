@@ -1,0 +1,38 @@
+// GroupFilter.scss
+.group-filter {
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+  
+      th, td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+  
+      th {
+        background-color: #f4f4f4;
+      }
+  
+      tr:hover {
+        background-color: #f1f1f1;
+        cursor: pointer;
+      }
+    }
+    .group-list {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .group-item {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        cursor: pointer;
+      
+        &:hover {
+          background-color: #f0f0f0;
+        }
+      }
+  }
+  
